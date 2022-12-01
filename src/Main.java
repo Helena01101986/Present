@@ -10,6 +10,10 @@ public class Main {
         } else {
             bonus = 0;
         }
+
+        int total = count + payment + bonus;
+
         System.out.println(bonus);
+        System.out.println(total);
     }
 }
